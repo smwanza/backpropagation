@@ -8,8 +8,8 @@ Implementation of a modular back-propagation network.
 
 #How to run
 ```sh
-python run_softmax.py data/spiral.npz
-python run_softmax.py data/moon.npz
-python run_MLP.py data/spiral.npz
-python run_MLP.py data/moon.npz
+$ python run_softmax.py data/spiral.npz
+$ python run_softmax.py data/moon.npz
+$ python run_MLP.py data/spiral.npz
+$ python run_MLP.py data/moon.npz
 ```
