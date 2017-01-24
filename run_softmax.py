@@ -1,3 +1,5 @@
+
+#Credits to Prof. Emra on his Deep Learning course at METU
 import numpy as np
 import matplotlib.pyplot as plt
 import myNN as nn
