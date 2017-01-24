@@ -1,3 +1,4 @@
+#Credits to Prof. Emra on his Deep Learning course at METU
 import numpy as np
 import myNN as nn
 import plot_boundary_on_data
