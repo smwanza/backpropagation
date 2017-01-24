@@ -3,7 +3,7 @@
 A neural network is nothing but a composition of several linear and non-linear functions:
 
 
-<img src="eq1.png" width="400" height="50" />
+<img src="math/eq1.png" width="400" height="50" />
 
 
 
@@ -13,7 +13,7 @@ Given a specific architecture, i.e. composition, one can easilywrite the gradien
 But a modular approach is desirable so that we don't have to derive the gradient again and again. We can “compose” new architectures by simply connecting computing blocks as show below. 
 
 
-<img src="modular_backprop.jpeg" width="500" height="300" />
+<img src="math/modular_backprop.jpeg" width="500" height="300" />
 
 Implementation of a modular back-propagation network.
 
