@@ -1,3 +1,4 @@
+#Crdits to Prof. Emra on his Deep Learning course at METU
 import numpy as np
 from matplotlib import pyplot as plt
 
