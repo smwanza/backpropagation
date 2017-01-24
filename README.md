@@ -30,6 +30,6 @@ $ python run_MLP.py data/spiral.npz
 $ python run_MLP.py data/moon.npz
 ```
 
-Below is the result of MLP on the spiral data.
+Below is the result of MLP non linear separation of spiral data.
 
 <img src="spiral_data.png" width="500" height="300" />
