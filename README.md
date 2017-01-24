@@ -12,7 +12,7 @@ Given a specific architecture, i.e. composition, one can easilywrite the gradien
 But a modular approach is desirable so that we don't have to derive the gradient again and again. We can “compose” new architectures by simply connecting computing blocks as show below. 
 
 
-<img src="modular_backprop.jpeg" width="200" height="100" />
+<img src="modular_backprop.jpeg" width="400" height="200" />
 
 Implementation of a modular back-propagation network.
 
