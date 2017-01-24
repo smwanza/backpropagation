@@ -3,7 +3,7 @@
 A neural network is nothing but a composition of several linear and non-linear functions:
 
 
-<img src="eq1.png" width="300" height="60" />
+<img src="eq1.png" width="400" height="50" />
 
 
 
