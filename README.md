@@ -2,8 +2,10 @@
 
 A neural network is nothing but a composition of several linear and non-linear functions:
 
-( $inline$ , $$display$$)
-( \\ $y=f_k(f_{k-1}(...f_1(x;\theta_1);\theta_{k-1});\theta_k)$
+\begin{equation}
+y=f_k(f_{k-1}(...f_1(x;\theta_1);\theta_{k-1});\theta_k)
+\end{equation}
+
 
 
 Given a specific architecture, i.e. composition, one can easilywrite the gradient w.r.t. parameters.
