@@ -45,7 +45,7 @@ def relu(X, ignored):
     # out: Output of ReLU. M-by-N dimensional. 
     # dx: Derivative of the output w.r.t. the input. 
 
-    # <<< YOUR CODE HERE >>> #
+   
     out = X * (X > 0)
     dx = 1. *(X > 0)
     return {'out':out, 'dx':dx}
@@ -155,13 +155,13 @@ def train(network, X, Y, eta=.1, num_iters = 5000):
                 # for them. Use "eta" as the learning rate.
 
 
-                network[i][1][0] -= eta * np.dot(out_list[i]['dw'].T,dout)# <<< YOUR CODE HERE >>> #
-                network[i][1][1] -= eta * np.sum(dout, axis=0, keepdims=True)# <<< YOUR CODE HERE >>> #
+                network[i][1][0] -= eta * np.dot(out_list[i]['dw'].T,dout)
+                network[i][1][1] -= eta * np.sum(dout, axis=0, keepdims=True)
 
                 # Propagate gradient by updating v  dout is the derivative of
                 # the loss w.r.t. FC's input.
 
-                dout = np.dot(dout,out_list[i]['dx'].T)# <<< YOUR CODE HERE >>> #
+                dout = np.dot(dout,out_list[i]['dx'].T)
             elif network[i][0]==relu:
                 # RELU layer doesn't have any parameters, so nothing to update
                 # propagate gradient
