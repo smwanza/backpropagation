@@ -3,7 +3,7 @@
 A neural network is nothing but a composition of several linear and non-linear functions:
 
 
-$ y=f_k(f_{k-1}(...f_1(x;\theta_1);\theta_{k-1});\theta_k) $
+<img src="eq1.png" width="500" height="60" />
 
 
 
