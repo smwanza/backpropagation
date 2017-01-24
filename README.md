@@ -15,7 +15,7 @@ But a modular approach is desirable so that we don't have to derive the gradient
 
 <img src="math/modular_backprop.jpeg" width="500" height="300" />
 
-Implementation of a modular back-propagation network.
+Implementation example of a modular back-propagation network.
 
 
 * Fully connected layer (both forward and backward pass),
@@ -29,3 +29,7 @@ $ python run_softmax.py data/moon.npz
 $ python run_MLP.py data/spiral.npz
 $ python run_MLP.py data/moon.npz
 ```
+
+Below is the result of MLP on the spiral data.
+
+<img src="spiral_data.png" width="500" height="300" />
