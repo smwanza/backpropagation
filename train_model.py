@@ -21,8 +21,6 @@ def fc(X, params):
     #   dw: Derivative of the output w.r.t. the weights. N-by-D dimensional.
     #   db: Derivative of the output w.r.t. the biases. N-by-1 dimensional.
 
-    # <<< YOUR CODE HERE >>> #
-
     W,b = params
     out = np.dot(X,W) + b
     dx = W
