@@ -14,7 +14,7 @@ def fc(X, params):
     #   b: 1-by-K dimensional numpy array storing the bias terms.
     #
     # Outputs:
-    #   This function must return a Python dictionary with the following fields:
+    #   This function returns a Python dictionary with the following fields:
     #       out, dx, dw and db. 
     #   out: Output of the fully connected layer, which is N-by-K numpy array.
     #   dx: Derivative of the output w.r.t. the input. D-by-K dimensional.
@@ -63,8 +63,7 @@ def softmax_cross_entropy(X, Y):
     # out: Output of cross-entropy. A scalar. 
     # dx: Derivative of the output w.r.t. the input. 
 
-    # This implementation is given for you. 
-
+ 
 
     # Softmax
     e_x = np.exp(X - np.max(X, axis=1, keepdims=True))
@@ -89,7 +88,6 @@ def softmax_readout(X, ignored):
     # out: Output of softmax. N-by-K array.
     # dx: Derivative of the output w.r.t. the input.
 
-    # This implementation is given for you.
 
     e_x = np.exp(X - np.max(X, axis=1, keepdims=True))
     probs = e_x / np.sum(e_x,axis=1, keepdims=True)
